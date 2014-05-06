@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<!-- ======= -->
+	<!-- General -->
+	<!-- ======= -->
+
+	<definition name="index" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="BOOKPUB" />
+		<put-attribute name="content" value="/WEB-INF/pages/index.jsp" />
+	</definition>
+
+
+	<!-- ======= -->
+	<!-- Author -->
+	<!-- ======= -->
+
+	<definition name="author/addBook" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="Add Book" />
+		<put-attribute name="content" value="/WEB-INF/pages/book/addBook.jsp" />
+	</definition>
+
+	<definition name="author/addChapter" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="Add Chapter" />
+		<put-attribute name="content" value="/WEB-INF/pages/book/addChapter.jsp" />
+		 <put-list-attribute name="jsUrls">
+            <add-attribute value="${ckeditor.url}" />
+        </put-list-attribute>
+	</definition>
+
+	<definition name="author/viewBook" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="View Book" />
+		<put-attribute name="content" value="/WEB-INF/pages/book/viewBook.jsp" />
+	</definition>
+
+	<definition name="author/viewBooks" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="View Books" />
+		<put-attribute name="content" value="/WEB-INF/pages/book/viewBooks.jsp" />
+	</definition>
+
+	<definition name="author/writtenBooks" template="/WEB-INF/layouts/basic.jsp">
+		<put-attribute name="title" value="View Written Books" />
+		<put-attribute name="content"
+			value="/WEB-INF/pages/book/writtenBooks.jsp" />
+	</definition>
+
+</tiles-definitions>

@@ -1,0 +1,13 @@
+app.url=http://localhost:8080/bookpub
+app.email=bookpub@localhost.localdomain
+app.file.dir=E:/TEMP/bookpub/files
+app.log.dir=E:/TEMP/bookpub/logs
+app.log.level=debug
+
+db.url=jdbc:postgresql://localhost:5432/bookpub
+db.username=cysun
+db.password=abcd
+
+test.db.url=jdbc:postgresql://localhost:5432/bookpubtest
+test.db.username=cysun
+test.db.password=abcd

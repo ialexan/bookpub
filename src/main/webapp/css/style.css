@@ -1,0 +1,114 @@
+body {
+	background-color: #a6bf79;
+}
+
+/**********  Bookpub TOP HEADER  **********/
+#bookpub_top {
+	height: 82px;
+	font-size: 2em;
+	font-weight: bold;
+	background: #85a157;
+	margin: 0 -20px;
+	padding: 10px 20px;
+	box-shadow: 1px 0 2px #888;
+	color: white;
+}
+
+#bookpub_top .wrap {
+	margin: 0 auto;
+	height: 82px;
+	width: 1000px;
+}
+
+#bookpub_top #ldpanel {
+	font: bold 12px arial;
+	margin-right: 220px;
+	width: 50%;
+	position: relative;
+	float: right;
+}
+
+#bookpub_top #lpanel {
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 24px;
+	float: right;
+	width: 50%;
+	position: relative;
+	float: right;
+}
+
+#bookpub_top #lpanel a {
+	color: #ffffff;
+	font: bold 14px arial;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-bottom: 1px dotted #fff;
+}
+
+#bookpub_top #lpanel a:hover {
+	color: #b4ff00;
+	border-bottom: 1px dotted #b4ff00;
+}
+
+#bookpub_top #lpanel label {
+	margin-right: 10px;
+}
+
+#bookpub_top #lpanel label input {
+	border: 1px solid #2b6bb8;
+	font: 15px 'Times New Roman', Times, serif;
+	color: #666666;
+	padding: 4px;
+	width: 150px;
+}
+
+#bookpub_top #lpanel .submit {
+	font: 12px "Times New Roman", Times, serif;
+	background: transparent url(../img/layout/submit.gif) repeat-x center
+		center;
+	padding: 4px 10px;
+	border: 1px solid #7aad10;
+	margin-right: 20px;
+}
+
+/* -- Bookpub Content Layout -- */
+#bookpub_container {
+	width: 80%;
+	margin: 0 auto;
+	background: #E1EFD8;
+	padding: 20px;
+	box-shadow: 0 0 10px #555;
+	overflow: hidden;
+	border-radius: 4px;
+	min-height: 450px;
+}
+
+/**********  Bookpub FOOTER Layout  **********/
+#bookpub_ftr {
+	height: 30px;
+	color: #4A5C2F;
+	font: 12px arial;
+	padding-top: 10px;
+	margin: 10 -20px;
+	line-height: 22px;
+}
+
+#bookpub_ftr .wrap {
+	width: 910px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#bookpub_ftr a {
+	font-weight: bold;
+	color: #b4ff00;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-bottom: 1px dotted #b4ff00;
+}
+
+#bookpub_ftr a:hover {
+	color: #ffffff;
+	border-bottom: 1px dotted #ffffff;
+}
